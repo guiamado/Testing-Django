@@ -25,7 +25,7 @@ SECRET_KEY = 'gip0&yd+l-j*d6*zf%_amv@ny8_ar^_60chy=$5pu&_nnsduu#'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['guiamado.pythonanywhere.com']
 
 
 # Application definition
