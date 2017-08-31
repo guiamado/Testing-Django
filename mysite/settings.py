@@ -28,6 +28,7 @@ DEBUG = True
 ALLOWED_HOSTS = ['guiamado.pythonanywhere.com']
 
 
+
 # Application definition
 
 INSTALLED_APPS = (
@@ -102,3 +103,5 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#Login stuff
+LOGIN_REDIRECT_URL = '/'
